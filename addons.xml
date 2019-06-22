@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.module.js2py" name="js2py" version="0.6.3" provider-name="Addons4Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="script.module.pyjsparser" version="2.7.1"/>
+    <import addon="script.module.tzlocal" version="1.5.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/Js2Py</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/Js2Py</website>
+    <source>https://github.com/PiotrDabkowski/Js2Py</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2019.03.23" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -298,6 +319,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="script.module.tzlocal" name="tzlocal" version="1.5.1" provider-name="Addons4Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python Module to find out the current time zone</summary>
+    <description>Packed for Kodi from https://github.com/regebro/tzlocal</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/regebro/tzlocal</website>
+    <source>https://github.com/regebro/tzlocal</source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="repository.thebackup" name="[COLOR orange]The Backup[/COLOR]" version="2.0.0" provider-name="thebackup">
     <extension point="xbmc.addon.repository" name="[COLOR orange]The Backup Repository[/COLOR]">
     <dir>
@@ -546,6 +586,24 @@ Speed Increase for playlist building
     <website>http://twitter.com/ccloudapp</website>
     <email></email>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.pyjsparser" name="pyjsparser" version="2.7.1" provider-name="Addons4Kodi">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
+    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
+    <email></email>
   </extension>
 </addon>
 
