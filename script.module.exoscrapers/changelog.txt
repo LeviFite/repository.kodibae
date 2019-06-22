@@ -1,3 +1,7 @@
 ExoScrapers Module Changelog:
+
+1.0.1
+- Scraper updates
+
 1.0.0
 - Code rebase
