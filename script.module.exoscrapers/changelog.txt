@@ -1,5 +1,8 @@
 ExoScrapers Module Changelog:
 
+1.0.2
+- Fix issues
+
 1.0.1
 - Scraper updates
 
